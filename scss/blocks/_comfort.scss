@@ -79,6 +79,10 @@
 }
 
 @media only screen and (max-width: 900px){
+
+    .comfort{
+        padding: 40px;
+    }
     .comfort-list{
         flex-direction: column;
     }
@@ -89,8 +93,14 @@
     .price-wrapper{
         flex-direction: column;
     }
+
+    .comfort-text{
+        margin: 0;
+        min-width: 290px;
+    }
   
     .price  {
+        min-width: 290px;
         margin-right: auto;
         margin-left: auto;
     }
